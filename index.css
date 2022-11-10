@@ -1,0 +1,39 @@
+/* Write your code here. */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  height: 100vh;
+  text-align: center;
+}
+.box {
+  margin: 15px;
+  align-items: center;
+}
+.box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  text-align: center;
+}
+.small-box {
+  background-color: orange;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+.medium-box {
+  background-color: blue;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+}
+.large-box {
+  background-color: pink;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+}
